@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("cars.jpg");
+    background-size: cover;
+    
+}
+
+header {
+    position: relative;
+    left:-450px;
+    font-size: 6vh;
+    color: #fff;
+    padding: 20px;
+    text-align:center;
+}
+
+nav{
+    font-size: 3rem;
+    position: relative;
+    top:-160px;
+    right:-300px;
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    padding: 20px;
+    position: relative;
+    left:300px;
+    color:white;
+    font-size: 3rem;
+}
+h2{
+    text-decoration-line: underline;
+}
+
